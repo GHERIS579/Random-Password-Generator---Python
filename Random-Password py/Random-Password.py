@@ -1,3 +1,5 @@
+##!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
 import tkinter as tk
 import  random
 import pyperclip as py
