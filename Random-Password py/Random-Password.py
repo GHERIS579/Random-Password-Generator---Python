@@ -33,25 +33,25 @@ root.title('Password random')
 
 
 button = tk.Button(root, text='Password', command=main)
-button.config(font=('Password',50,'bold'))
-button.config(bg='#FF6600')
-button.config(activebackground='#120A8F')
-button.config(activeforeground='#704214')
-button.config(width=10)
+button.configure(font=('Password',50,'bold'))
+button.configure(bg='#FF6600')
+button.configure(activebackground='#120A8F')
+button.configure(activeforeground='#704214')
+button.configure(width=10)
 button.pack()
 
 
 label = tk.Label(root, text='👆Click the button to generate passwords ')
-label.config(border=10)
-label.config(font=(password,19,'bold'))
+label.configure(border=10)
+label.configure(font=(password,19,'bold'))
 label.pack()
 
 #Description in program
 
 description = tk.Label(root, text='Your password is already copied and ready to paste')
-description.config(font=(50))
-description.config(bg='#FF0000')
-description.config(border=10)
+description.configure(font=(50))
+description.configure(bg='#FF0000')
+description.cconfigure(border=10)
 description.pack()
 
 
